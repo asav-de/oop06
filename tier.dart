@@ -2,7 +2,9 @@ import 'can_fly.dart';
 import 'can_walk.dart';
 
 abstract class Tier implements CanWalk {
-  void move() {}
+  void move() {
+    print('I like to move it..');
+  }
 
   void makeSound() {
     print("I can speak like...");
