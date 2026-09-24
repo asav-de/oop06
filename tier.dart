@@ -1,5 +1,6 @@
 import 'can_fly.dart';
 
+/// Abstract base class for all animals.
 abstract class Tier {
   void move() {
     print('I like to move it..');
@@ -14,6 +15,7 @@ abstract class Tier {
   }
 }
 
+/// Lets [obj] fly if it implements [CanFly]; does nothing otherwise.
 void globalFly(Object? obj) {
   if (obj is CanFly) obj.fly();
 }

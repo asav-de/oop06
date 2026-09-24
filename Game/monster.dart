@@ -1,7 +1,9 @@
 import 'damageable.dart';
 
+/// The colours a [Monster] can have.
 enum Color { green, red, blue, black }
 
+/// An enemy with a threat level and a colour.
 class Monster extends Damageable {
   Monster({
     required super.name,

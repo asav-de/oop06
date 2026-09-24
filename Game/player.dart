@@ -1,5 +1,6 @@
 import 'damageable.dart';
 
+/// The player character, which has several lives and a score.
 class Player extends Damageable {
   Player({
     required super.name,

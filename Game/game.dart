@@ -1,3 +1,4 @@
+/// Base class for every object in the game world.
 class Game {
   Game({required this.name, required this.posX, required this.posY});
 

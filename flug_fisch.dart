@@ -1,6 +1,7 @@
 import 'can_fly.dart';
 import 'fisch.dart';
 
+/// A flying fish: a [Fish] that can also jump out of the water and fly.
 class FlugFish extends Fish implements CanFly {
   new({required super.name});
 

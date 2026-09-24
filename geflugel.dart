@@ -2,6 +2,7 @@ import 'can_walk.dart';
 import 'tier.dart';
 import 'can_fly.dart';
 
+/// A bird: an animal that can both fly and walk.
 class Geflugel extends Tier implements CanFly, CanWalk {
   String name;
 
