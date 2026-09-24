@@ -10,13 +10,6 @@ class FlugFish extends Fish implements CanFly {
   }
 
   @override
-  void canWalk() {
-    print(
-      'I can`t walk, but i can swim, jump out of the water, and fly like a bird',
-    );
-  }
-
-  @override
   void move() {
     print('I move under the water and sometimes above the water like a bird');
   }

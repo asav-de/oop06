@@ -1,7 +1,6 @@
 import 'can_fly.dart';
-import 'can_walk.dart';
 
-abstract class Tier implements CanWalk {
+abstract class Tier {
   void move() {
     print('I like to move it..');
   }
@@ -13,15 +12,8 @@ abstract class Tier implements CanWalk {
   void canBreathe() {
     print('I`m an Animal, i can breathe');
   }
-
-  @override
-  void canWalk() {
-    print('I can walk like an Animal');
-  }
 }
 
 void globalFly(Object? obj) {
-  if (obj is CanFly) {
-    obj.fly();
-  }
+  if (obj is CanFly) obj.fly();
 }

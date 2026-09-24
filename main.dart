@@ -21,7 +21,6 @@ void main() {
   karpfen.canBreathe();
   karpfen.canBreatheUnderWater();
   karpfen.move();
-  karpfen.canWalk();
   karpfen.makeSound();
 
   FlugFish flugFish = FlugFish(name: 'FlugFish');
@@ -31,6 +30,5 @@ void main() {
   flugFish.canBreathe();
   flugFish.canBreatheUnderWater();
   flugFish.move();
-  flugFish.canWalk();
   flugFish.makeSound();
 }

@@ -1,7 +1,8 @@
+import 'can_walk.dart';
 import 'tier.dart';
 import 'can_fly.dart';
 
-class Geflugel extends Tier implements CanFly {
+class Geflugel extends Tier implements CanFly, CanWalk {
   String name;
 
   Geflugel({required this.name});
@@ -23,6 +24,7 @@ class Geflugel extends Tier implements CanFly {
 
   @override
   void canWalk() {
+    print('I can walk like an Animal');
     move();
   }
 

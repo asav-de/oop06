@@ -17,11 +17,6 @@ class Fish extends Tier implements CanBreatheUnderWater {
   }
 
   @override
-  void canWalk() {
-    print('I can`t walk. I can only swimm because I`m a Fish');
-  }
-
-  @override
   void makeSound() {
     print('I make sound under the Water like a Fish: bul, bul..');
   }
