@@ -1,5 +1,6 @@
 import 'game.dart';
 
+/// A game object that has health and can be killed.
 abstract class Damageable extends Game {
   int maxHealth;
   int _health;

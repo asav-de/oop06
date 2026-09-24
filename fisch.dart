@@ -1,6 +1,7 @@
 import 'can_breathe_under_water.dart';
 import 'tier.dart';
 
+/// A fish: lives and breathes under water and cannot walk.
 class Fish extends Tier implements CanBreatheUnderWater {
   Fish({required this.name});
 

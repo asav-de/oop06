@@ -1,3 +1,4 @@
+/// A stack of coins, stored as a list of coin values.
 class CoinStack {
   CoinStack(List<int> coins) : coinList = List.of(coins);
 
